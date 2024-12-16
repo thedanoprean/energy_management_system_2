@@ -28,9 +28,6 @@ The system is containerized using Docker and orchestrated with Docker Compose. K
 - **Communication Microservice**: Exposed on port `8083`, developed in Java (Spring Boot).
 - **PostgreSQL Databases**: Dedicated for users, devices, and communication, with data persistence enabled.
 
-### UML Deployment Diagram
-The deployment diagram illustrates the communication between the frontend, backend microservices, and databases. Each container is designed to ensure scalability and reliability.
-
 ## Functional Requirements
 1. **User Management**:
    - User registration, login, update, and deletion.
